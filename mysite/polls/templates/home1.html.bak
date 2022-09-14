@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        {% load static %}
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Schnell Learning </title>
+        
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{%static '/assets/favicon.ico'%}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{%static 'polls/css/styles.css'%}" rel="stylesheet" >
+    </head>
+    <body id="page-top">
+        
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a  href="#page-top"><img src="{%static 'polls\Logo\A.png'%}" width="250" height="120" alt="Schnell" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+					    <li class="nav-item"><a class="nav-link" href="#team">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Willkommen auf unserer Webseite!</div>
+                <div class="masthead-heading text-uppercase">Schnell Learning</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Choisir Votre Niveau</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Les Niveaux</h2>
+                    <h3 class="section-subheading text-muted">Choisir Votre Niveau</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                           <input type="button" onclick="window.location.href = 'https://www.w3docs.com';" value="A1" width="100" />
+                        </span>
+                        <h4 class="my-3">Beginner</h4>
+                        <p class="note">
+                         <p> ◦ Lesen</p>
+                          <p> ◦ Hören</p>
+                          <p> ◦ Schreiben</p>
+                          <p> ◦ Grammatik</p>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                             <input type="button" onclick="window.location.href = 'https://www.w3docs.com';" value="A2" width="100" />
+                        </span>
+                        <h4 class="my-3">Elementary</h4>
+                        <p class="note">
+                            
+                          <p> ◦ Lesen</p>
+                          <p> ◦ Hören</p>
+                          <p> ◦ Schreiben</p>
+                          <p> ◦ Grammatik</p></p>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                             <input type="button" onclick="window.location.href = 'https://www.w3docs.com';" value="B1" width="100" />
+                        </span>
+                        <h4 class="my-3">Intermediate</h4>
+                        <p class="note">
+                            
+                          <p> ◦ Lesen</p>
+                          <p> ◦ Hören</p>
+                          <p> ◦ Schreiben</p>
+                          <p> ◦ Grammatik</p></p>
+                        </p>
+                    </div>
+                     <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <input type="button" onclick="window.location.href = 'https://www.w3docs.com';" value="B2" width="100" />
+                        </span>
+                        <h4 class="my-3">Upper Intermediate</h4>
+                       <p class="note"> 
+                          <p> ◦ Lesen</p>
+                          <p> ◦ Hören</p>
+                          <p> ◦ Schreiben</p>
+                          <p> ◦ Grammatik</p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">Steps to access.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{%static 'polls/assets/img/about/A.png'%}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">Début de Projet</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Aprés l'annonce des travaux du Pr Bekri. Notre TEAM travaille dur pour atteinde l'objectif </p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{%static 'polls/assets/img/about/B.jpg'%}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                               
+                                <h4 class="subheading">Vue Générale</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"> c'est la vue individuelle et interactive des données courantes du projet dans laquelle nous pouvons affiner le planning de projet.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{%static 'polls/assets/img/about/C.jpg'%}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                               
+                                <h4 class="subheading">L'Utilisation de la méthode SCRUM</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Le <span>SCRUM </span>est une méthode de travail agile développée au début des années 1990 par Ken Schwaver et Jeff Sutherland. Elle définit un cadre de travail et des méthodes permettant d'aborder des problématiques complexes et mouvantes de manière efficace et créative afin de générer le plus de valeur possible.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{%static 'polls/assets/img/about/D.jpg'%}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">La Conception détaillée</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Le devis est en quelque sorte la description qualitative écrite et détaillée des matériaux, équipements, systèmes, spécifications techniques et autres ...</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        
+      
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Bachelor in Computer Enginnering</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       
+       
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{%static 'polls/js/scripts.js'%}"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>

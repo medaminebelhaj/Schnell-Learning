@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+{% load static %}
+
+
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="{%static 'polls\css\logsty.css'%}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+
+
+
+
+     <div class="login-form">
+        <h1>Get Started</h1>
+        <div class = "textbox" > 
+         
+        <form action="#" method="post">
+           
+            
+            <p class="far fa-user">  Username </p>
+
+         <input type="text" name="user" placeholder="Username"> </div> 
+
+        <div class =  "textbox">
+            
+         
+        </div>
+           <p class="fas fa-lock"> Password</p> 
+           <input type="password" name="password" placeholder="Password">
+
+
+           <button type="submit">Sign in  </button> 
+
+
+
+           <div class="signup_link">
+               Not a member? <a href="#"> SIGN UP /a>
+         </form>
+      </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+     <title>Grammatik</title>
+     {% load static %}
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{%static 'polls\css\GraA2.css'%}" rel="stylesheet" >
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+     
+
+<div class="wrapper">
+    <div class="logo">
+        <img src="{%static 'polls/Images/LOGO.png'%}" alt="">
+       </div>
+
+    <ul>
+        
+        <li><a class="active" href="#">Grammatik</a></li>
+        <li><a href="http://localhost:8000/polls/schreibenA2">Redemittel Schreiben</a></li>
+        <li><a href="http://localhost:8000/polls/acceuil#contact">Contact</a></li>
+        
+    </ul>
+
+
+     
+</div>
+</nav>
+
+
+
+<div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="{%static 'polls/Images/verb.webp'%}" alt="" >
+          <div class="card-content" onclick="window.location.href='http://localhost:8000/polls/verbA2'">
+            
+            <button class="card-btn"> Verbes<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="card" onclick="window.location.href='http://localhost:8000/polls/adverbA2'">
+          <img class="card-img" src="{%static 'polls/Images/Adverb.webp'%}"   alt="">
+          <div class="card-content">
+            
+            <button class="card-btn">Adverbes <span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="card" onclick="window.location.href='http://localhost:8000/polls/adjektivA2'">
+          <img class="card-img" src="{%static 'polls/Images/adjektiv.jpg'%}"alt="" >
+          <div class="card-content">
+           
+            <button class="card-btn">Adjectifs<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

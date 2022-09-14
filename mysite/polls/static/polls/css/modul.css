@@ -1,0 +1,36 @@
+
+ .masthead {
+    height: 130vh;
+    min-height: 500px;
+    background-image: url("https://wallpaperaccess.com/full/1157063.jpg") ;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+.card-body{
+    background-image: url(https://img2.wallspic.com/originals/6/5/7/1/1/111756-mode_monochrome-ligne-5120x2880.jpg);
+}
+.teal {padding:11px;background:#FF3232;color:black;font-family: Chalkduster, fantasy;}
+.text{
+    font-family:Blippo,fantasy;
+    font-size:40px;
+text-align: center;
+color: black ;
+}
+
+.text1{
+    font-family:Courier New, monospace;
+  
+text-align: center;
+color: black ; 
+font-size: 12px;
+}
+.m-b-10 {
+    margin-bottom: 20px !important
+}
+.font-weight-light {
+    text-align: center;
+    font-size:90px; 
+    font-family:Blippo,fantasy;
+    color: white ;

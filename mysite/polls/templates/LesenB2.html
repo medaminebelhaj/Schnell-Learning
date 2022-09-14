@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+<title>MODEL TEST LESEN </title>
+<link rel="stylesheet" href="{%static 'polls\css\LeB1.css'%}">
+<script type="text/javascript" src="Quiz.js"></script>
+</head>
+
+<body>
+  <form name="Quiz" id="Quiz">
+   <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+
+        <div cass="wrapper">
+            <div class="logo">
+                <img src="{%static 'polls/Images/LOGO.png'%}" alt="">
+               </div>
+               <ul>
+                   <li><a  href="#services1">Teil 1</a></li>
+                   <li><a href="#services2">Teil 2</a></li>
+                   <li><a href="#services3">Teil 3 </a></li>
+                   <li><a href="#services4">Teil 4 </a></li>
+               </ul>
+        </div>
+        </div>
+        </nav>
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading"><h1 style="margin-left: 42%; margin-bottom: 20px;color:white">Lesen!</h1></div>
+                <div class="trennlinie"></div>
+                <div class="masthead-heading text-uppercase"><h2 style="margin-left: 40%; margin-bottom: 50px;color:white">Schnell Learning</h2></div>
+
+            </div>
+        </header>
+        <section class="page-section" id="services1"style="margin-bottom:  50px;">
+            <h1><span class="Start" style="margin-left: 35%;padding-left: 40px;padding-right: 40px;padding-top: 20px;padding-bottom: 20px;">Start Deutsch </span></h1></br>
+    <div class=ct>
+      <h2  style="padding-left: 40px;"><u>Teil 1 </u></h2>
+      <p> <img src="{%static 'polls/Images/teil10.PNG'%}"></p>
+      <h2 ><u>Aussage 1</u></h2>
+      <h3>Erst durch den Anruf bemerkte Susanne das Fehlen ihrer Brieftasche.</h2>
+      <h4><input type="radio" name="question1" id="bo" value="richtig1"> Richtig </h4>
+      <h4><input type="radio" name="question1" id="bo" value="Falsch1"> Falsch </h4>
+      <h2><u>Aussage 2</u></h2>
+      <h3> Susanne glaubte, die Brieftasche beim Bezahlen vergessen zu haben.</h3>
+      <h4><input type="radio" name="question2" id="bo" value="richtig2"> Richtig </h4>
+      <h4><input type="radio" name="question2" id="bo" value="Falsch2"> Falsch </h4>
+       <h2><u>Aussage 3</u></h2>
+      <h3>Der Finder hatte die Brieftasche ins Fundbüro gebracht.</h3>
+      <h4><input type="radio" name="question3" id="bo" value="richtig3"> Richtig </h4>
+      <h4><input type="radio" name="question3" id="bo" value="Falsch3"> Falsch </h4>
+       <h2><u>Aussage 4</u></h2>
+      <h3> Die Telefonnummer der Bank war in der Brieftasche.</h3>
+      <h4><input type="radio" name="question4" id="bo" value="richtig4"> Richtig </h4>
+      <h4><input type="radio" name="question4" id="bo" value="Falsch4"> Falsch </h4>
+       <h2><u>Aussage 5</u></h2>
+      <h3> In Susannes Brieftasche fehlte nichts.</h3>
+      <h4><input type="radio" name="question5" id="bo" value="richtig5"> Richtig </h4>
+      <h4><input type="radio" name="question5" id="bo" value="Falsch5"> Falsch </h4>
+       <h2><u>Aussage 6</u><h2>
+      <h3> Susanne konnte dem Finder persönlich für seine Ehrlichkeit danken.</h3>
+      <h4><input type="radio" name="question6" id="bo" value="richtig6"> Richtig </h4>
+      <h4><input type="radio" name="question6" id="bo" value="Falsch6"> Falsch </h4>
+
+    </div>
+
+    <div class=ct>
+       <h2>Teil 2 Text 1</h2>
+       <p><img src="{%static 'polls/Images/teil2.PNG'%}"><p>
+       <h2><u>Aufgabe 7</u></h2>
+       <h3>In diesem Text geht es um ...</h3>
+       <h4><input type="radio" id="bo" name="question7" value="A">a.die neue Technologie von Eckhard Meier.</h4>
+       <h4><input type="radio" id="bo" name="question7" value="B">  b.die umweltfreundliche Stromproduktion in Feldheim. </h4>
+       <h4><input type="radio" id="bo" name="question7" value="C"> c.einen Studiengang an der Universität Göttingen.</h4>
+        <h2><u>Aufgabe 8</u></h2>
+       <h3>Die Wissenschaftler wollten zeigen, dass ...</h3>
+       <h4><input type="radio" id="bo" name="question8" value="A1">a.ein ganzes Dorf von modernen Energien leben kann.</h4>
+       <h4><input type="radio" id="bo" name="question8" value="B1">  b. eine Bio-Gasanlage mehr Strom produziert, als ein Dorf braucht.</h4>
+       <h4><input type="radio" id="bo" name="question8" value="C1"> c. man größere Mengen Strom sparen kann.</h4>
+        <h2><u>Aufgabe 9</u></h2>
+       <h3>Damit die Idee auch in anderen Dörfern funktioniert, ...</h3>
+       <h4><input type="radio" id="bo" name="question9" value="A2">a.benötigt man viel Geld.</h4>
+       <h4><input type="radio" id="bo" name="question9" value="B2">  b.braucht man genug Platz für die Technik. </h4>
+       <h4><input type="radio" id="bo" name="question9" value="C2"> c.muss die Bevölkerung dafür sein.</h4>
+     </div>
+      <div class=ct>
+       <h2><u>Teil 2 Text 2</u></h2>
+       <p><img src="{%static 'polls/Images/2.PNG'%}"><p>
+       <h2><u>Aufgabe 10</u></h2>
+       <h3>In diesem Text geht es darum, dass …</h3>
+       <h4><input type="radio" id="bo" name="question10" value="A3">a.die Geschichte von Murten neu erzählt wird.</h4>
+       <h4><input type="radio"  id="bo" name="question10" value="B3">  b.es ein neues Tourismus-Angebot gibt. </h4>
+       <h4><input type="radio" id="bo" name="question10" value="C3"> c.man in Murten neue Velo-Wege bauen will.</h4>
+        <h2><u>Aufgabe 11</u></h2>
+       <h3>Für die Rundfahrt ...</h3>
+       <h4><input type="radio" id="bo" name="question11" value="A4">a.braucht man ein eigenes Velo.</h4>
+       <h4><input type="radio" id="bo" name="question11" value="B4">  b. muss man nicht sportlich sein.</h4>
+       <h4><input type="radio" id="bo" name="question11" value="C4"> c. Sollte man mit der Bahn anreisen.</h4>
+        <h2><u>Aufgabe 12</u></h2>
+       <h3> Der Geschäftsführer von Murten Tourismus will, dass ...</h3>
+       <h4><input type="radio" id="bo" name="question12" value="A5">a.es in Murten mehr Stadtführungen für Gruppen gibt.</h4>
+       <h4><input type="radio" id="bo" name="question12" value="B5">  b.die Leute normale Velos statt Elektro-Velos benutzen. </h4>
+       <h4><input type="radio" id="bo" name="question12" value="C5"> c.mehr Velo-Touristen in die Region kommen.</h4>
+     </div>
+     <div class=ct>
+       <h2><u>Teil 3</u></h2>
+       <h3> Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien.
+       Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. </h3>
+       <p><img src="{%static 'polls/Images/teil3.PNG'%}"><p>
+       <p><img src="{%static 'polls/Images/teil31.PNG'%}"><p>
+       <p><img src="{%static 'polls/Images/teil32.PNG'%}"><p>
+       <p>Die Situationen 13 bis 19 - Teil 3<P>
+       <h2><u>Situation 13</u></h2>
+       <h3>Leon möchte im Sommer im Tourismus-Bereich arbeiten, um sein Deutsch zu verbessern.</h3><h4>
+       <input type="radio" id="bo" name="question13" value="A6">A
+       <input type="radio" id="bo" name="question13" value="B6">B
+       <input type="radio" id="bo" name="question13" value="C6">C
+       <input type="radio" id="bo" name="question13" value="D6">D
+       <input type="radio" id="bo" name="question13" value="E6">E
+       <input type="radio" id="bo" name="question13" value="F6">F
+       <input type="radio" id="bo" name="question13" value="G6">G
+       <input type="radio" id="bo" name="question13" value="H6">H
+       <input type="radio" id="bo" name="question13" value="J6">J
+       <input type="radio" id="bo" name="question13" value="X6">X
+       <h2><u>Situation 14</u></h2>
+       <h3>Giovanna sucht deutsche Hörbücher, damit sie unterwegs Deutsch lernen kann.</h3><h4>
+       <input type="radio" id="bo" name="question14" value="A7">A
+       <input type="radio" id="bo" name="question14" value="B7">B
+       <input type="radio" id="bo" name="question14" value="C7">C
+       <input type="radio" id="bo" name="question14" value="D7">D
+       <input type="radio" id="bo" name="question14" value="E7">E
+       <input type="radio"id="bo" name="question14" value="F7">F
+       <input type="radio" id="bo" name="question14" value="G7">G
+       <input type="radio" id="bo" name="question14" value="H7">H
+       <input type="radio" id="bo" name="question14" value="J7">J
+       <input type="radio" id="bo" name="question14" value="X7">X
+        <h2><u>Situation 15</u></h2>
+       <h3>Mirjeta hat keine Zeit für einen Kurs, möchte sich aber regelmäßig über Neuigkeiten aus Deutschland informieren. </h3><h4>
+       <input type="radio" id="bo" name="question15" value="A8">A
+       <input type="radio" id="bo" name="question15" value="B8">B
+       <input type="radio" id="bo" name="question15" value="C8">C
+       <input type="radio" id="bo" name="question15" value="D8">D
+       <input type="radio" id="bo" name="question15" value="E8">E
+       <input type="radio" id="bo" name="question15" value="F8">F
+       <input type="radio" id="bo" name="question15" value="G8">G
+       <input type="radio" id="bo" name="question15" value="H8">H
+       <input type="radio" id="bo" name="question15" value="J8">J
+       <input type="radio" id="bo" name="question15" value="X8">X
+        <h2><u>Situation 16</u></h2>
+       <h3>Maria möchte am Computer Deutsch lernen.</h3><h4>
+       <input type="radio" id="bo" name="question16" value="A9">A
+       <input type="radio" id="bo" name="question16" value="B9">B
+       <input type="radio" id="bo" name="question16" value="C9">C
+       <input type="radio" id="bo" name="question16" value="D9">D
+       <input type="radio" id="bo" name="question16" value="E9">E
+       <input type="radio" id="bo" name="question16" value="F9">F
+       <input type="radio" id="bo" name="question16" value="G9">G
+       <input type="radio" id="bo" name="question16" value="H9">H
+       <input type="radio" id="bo" name="question16" value="J9">J
+       <input type="radio" id="bo" name="question16" value="X9">X
+        <h2><u>Situation 17</u></h2>
+       <h3>Susan liest am liebsten Literatur, wenn die Texte nicht zu schwierig sind.</h3><h4>
+       <input type="radio" id="bo" name="question17" value="A10">A
+       <input type="radio" id="bo" name="question17" value="B10">B
+       <input type="radio" id="bo" name="question17" value="C10">C
+       <input type="radio"id="bo" name="question17" value="D10">D
+       <input type="radio" id="bo" name="question17" value="E10">E
+       <input type="radio" id="bo" name="question17" value="F10">F
+       <input type="radio" id="bo" name="question17" value="G10">G
+       <input type="radio" id="bo" name="question17" value="H10">H
+       <input type="radio" id="bo" name="question17" value="J10">J
+       <input type="radio" id="bo" name="question17" value="X10">X
+        <h2><u>Situation 18</u></h2>
+       <h3>Miroslav will den schriftlichen Ausdruck verbessern, weil er im Studium viel schreiben muss.</h3><h4>
+       <input type="radio" id="bo" name="question18" value="A11">A
+       <input type="radio" id="bo" name="question18" value="B11">B
+       <input type="radio" id="bo" name="question18" value="C11">C
+       <input type="radio" id="bo" name="question18" value="D11">D
+       <input type="radio" id="bo" name="question18" value="E11">E
+       <input type="radio" id="bo" name="question18" value="F11">F
+       <input type="radio" id="bo" name="question18" value="G11">G
+       <input type="radio" id="bo" name="question18" value="H11">H
+       <input type="radio" id="bo" name="question18" value="J11">J
+       <input type="radio" id="bo" name="question18" value="X11">X
+        <h2><u>Situation 19</u></h2>
+       <h3>Juan kann nur am Abend einen Kurs besuchen.<h3><h4>
+       <input type="radio" id="bo" name="question19" value="A12">A
+       <input type="radio" id="bo" name="question19" value="B12">B
+       <input type="radio" id="bo" name="question19" value="C12">C
+       <input type="radio" id="bo" name="question19" value="D12">D
+       <input type="radio" id="bo" name="question19" value="E12">E
+       <input type="radio" id="bo" name="question19" value="F12">F
+       <input type="radio" id="bo" name="question19" value="G12">G
+       <input type="radio" id="bo" name="question19" value="H12">H
+       <input type="radio" id="bo" name="question19" value="J12">J
+       <input type="radio" id="bo" name="question19" value="X12">X
+     </div>
+     <div class=ct>
+      <h2><u>Teil 4</u> </h2>
+      <h2>Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person für ein Verbot?
+         In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über das Verbot von Videospielen,
+         in denen viel Gewalt vorkommt (sogenannte „Killerspiele“). </h2>
+      <p> <img src="{%static 'polls/Images/TEIL4.PNG'%}"><p>
+      <h3>20.Stefan</h3>
+      <input type="radio" id="bo" name="question20" value="ja"> ja
+      <input type="radio" id="bo" name="question20" value="nein">nein
+      <h3>21.Dagmar</h3>
+      <input type="radio" id="bo" name="question21" value="ja1"> ja
+      <input type="radio" id="bo" name="question21" value="nein1">nein
+      <h3>22.Kathleen</h3>
+      <input type="radio" id="bo" name="question22" value="ja2"> ja
+      <input type="radio" id="bo" name="question22" value="nein2">nein
+      <h3>23.Marius</h3>
+      <input type="radio"id="bo" name="question23" value="ja3"> ja
+      <input type="radio" id="bo" name="question23" value="nein3">nein
+      <h3>24.Jonny</h3>
+      <input type="radio" id="bo" name="question24" value="ja4"> ja
+      <input type="radio" id="bo" name="question24" value="nein4">nein
+      <h3>25.Robert</h3>
+      <input type="radio" id="bo" name="question25" value="ja5"> ja
+      <input type="radio" id="bo" name="question25" value="nein5">nein
+      <h3>26.Marinette</h3>
+      <input type="radio" id="bo" name="question26" value="ja6"> ja
+      <input type="radio" id="bo" name="question26" value="nein6">nein
+     </div>
+     <div class=ct>
+     <h2><u>Teil5</u></h2>
+
+       <h2>Lesen Sie die Aufgaben 27 bis 30 und den Text dazu.</h2>
+       <h2> Wählen Sie bei jeder Aufgabe die richtige Lösung a,b oder c .</h2>
+       <p><img src="teil5.PNG"><p>
+       <h2><u>Aufgabe 27</u></h2>
+       <h3>Schüler …</h3>
+       <P><input type="radio" id="bo" name="question27" value="A13">a.dürfen keine Fahrräder mit zur Schule bringen.<p>
+       <P><input type="radio" id="bo" name="question27" value="B13">  b.dürfen ihre Fahrräder auf den Schulhof stellen. <p>
+       <P><input type="radio" id="bo" name="question27" value="C13"> c.müssen ihre Fahrräder in einen speziellen Raum stellen.<p>
+        <h2><u>Aufgabe 28</u></h2>
+       <h3> Für die Klassenräume des BZW gilt:</h3>
+       <P><input type="radio" id="bo" name="question28" value="A14">a.Schüler dürfen keine Poster aufhängen.<p>
+       <P><input type="radio"  id="bo" name="question28" value="B14">  b.Schüler müssen dort selber aufräumen.<p>
+       <P><input type="radio" id="bo" name="question28" value="C14"> c. Schüler können dort nach dem Unterricht lernen.<p>
+       <h2><u>Aufgabe 29</u></h2>
+       <h3> Um die verschließbaren Fächer benutzen zu können, muss man …</h3>
+       <P><input type="radio" id="bo" name="question29" value="A15">a.einen Schlüssel im Sekretariat verlangen.<p>
+       <P><input type="radio" id="bo" name="question29" value="B15">  b.einmalig 50,- Euro zahlen. <p>
+       <P><input type="radio" id="bo" name="question29" value="C15"> c.Schüler sein oder im BZW arbeiten.<p>
+       <h2><u>Aufgabe 30</u></h2>
+       <h3>  Das Trinken von Alkohol …</h3>
+       <P><input type="radio" id="bo" name="question30" value="A16">a.kann von der Schulleitung genehmigt werden.<p>
+       <P><input type="radio" id="bo" name="question30" value="B16">  b.muss der Lehrperson gemeldet werden. <p>
+       <P><input type="radio" id="bo" name="question30" value="C16"> c.ist ohne Ausnahme verboten.<p>
+     </div>
+         <input type="button" onclick="and()" value="beenden!" id=ayn />
+     <br></br>
+     <br></br>
+      <div id="results"> </div>
+     <br></br>
+     <br></br>
+
+  </form>
+
+</body>

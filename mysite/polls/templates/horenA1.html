@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Schnell Learning </title>
+        {% load static %}
+
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="{%static 'polls\css\Ha1.css'%}">
+
+
+    </head> 
+    <form name="Quiz" id="Quiz">
+    <body id="page-top">
+       
+        
+        <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+     
+
+        <div cass="wrapper">
+            <div class="logo">
+                <img src="{%static 'polls/Images/LOGO.png'%}" alt="">
+               </div> 
+               <ul>
+                   <li><a  href="#services1">Teil 1</a></li>
+                   <li><a href="#services2">Teil 2</a></li>
+                   <li><a href="#services3">Teil 3 </a></li>
+               </ul>
+        </div>
+        </div>
+        </nav>
+        
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading"><h1 style="margin-left: 42%; margin-bottom: 20px">Horen!</h1></div>
+                <div class="trennlinie"></div>
+                <div class="masthead-heading text-uppercase"><h2 style="margin-left: 40%; margin-bottom: 50px">Schnell Learning</h2></div>
+                
+            </div>
+        </header>
+
+       <section class="page-section" id="services1"style="padding-top: 50px;">
+            <h1><span class="Start" style="margin-left: 35%;padding-left: 40px;padding-right: 40px;padding-top: 20px;padding-bottom: 20px;">Start Deutsch A1</span></h1></br>
+            <audio controls="controls" style="margin-left: 25%;margin-top: 5%;width: 500px">
+                <source src="{%static 'polls/Audio/horen.mp4'%}" >
+                <source src="horen.ogg">
+            </audio>
+            <h2 style="padding-left: 40px;"></br><u> Teil 1 :</u></h2>
+            <h4 style="padding-left: 80px">Was ist richtig? </br> Kreuzen Sie an:A ,B oder C. </br> Sie hören jeden Text zweimal.</h4>
+            <h2 style="padding-left: 40px;"></br><u> Beispiel :</u></h2>
+            <img src="{%static 'polls/Images/beispiel.jpg'%}" style="margin-left: 5%"></br>
+
+
+            <div>
+            <h6 class="question"style="margin-left: 5%">1 . Was kostet der Pullover?</h6>
+            <img src="{%static 'polls/Images/q1.jpg'%}" style="margin-left: 5%">
+            <ul><p>
+                       <input class="answer" type="radio" name="q1" value="a1">
+                        <label id="correctString1" style="margin-right: 130px;"><b>A . </b> Dreißig Euro.</label>     
+                        <input class="answer" type="radio" name="q1" value="b1">
+                        <label style=" margin-right: 130px;"><b>B . </b>  Fünfundneunzig Euro</label>
+                        <input class="answer" type="radio" name="q1" value="c1">
+                        <label><b>C . </b> Neunzehn Euro fünfundneunzig Cent.</label>  
+                     </p></ul>
+                 </div>
+
+            <div class="trennlinie"></div>
+            <div>
+            <h6 class="question"style="margin-left: 5%">2 . Wie spät ist es?</h6>
+            <img src="{%static 'polls/Images/q2.jpg'%}"style="margin-left: 5%">
+            <ul><p>
+                       <input class="answer" type="radio" name="q2" value="a2">
+                        <label id="correctString1" style="margin-right: 130px;"><b>A . </b> 15 Uhr.</label>     
+                        <input class="answer" type="radio" name="q2" value="b2">
+                        <label style=" margin-right: 130px;"><b>B . </b> Gleich 5 Uhr. </label>
+                        <input class="answer" type="radio" name="q2" value="c2">
+                        <label><b>C . </b> Halb 5 Uhr.</label>  
+                     </p></ul>
+                 </div>     
+            <div class="trennlinie"></div>
+            <div>
+            <h6 class="question"style="margin-left: 5%">3 . Was isst die Frau im Restaurant?</h6>
+            <img src="{%static 'polls/Images/q3.jpg'%}"style="margin-left: 5%">
+            <ul><p>
+                       <input class="answer" type="radio" name="q3" value="a3">
+                        <label id="correctString1" style="margin-right: 130px;"><b>A . </b> Pommes.</label>     
+                        <input class="answer" type="radio" name="q3" value="b3">
+                        <label style=" margin-right: 130px;"><b>B . </b>  Fisch.</label>
+                        <input class="answer" type="radio" name="q3" value="c3">
+                        <label><b>C . </b> Wurst.</label>  
+                     </p></ul>
+                 </div>
+
+            <div class="trennlinie"></div>
+            <div>
+            <h6 class="question"style="margin-left: 5%">4 . In welche Klasse geht Frau Hegers Sohn?</h6>
+            <img src="{%static 'polls/Images/q4.jpg'%}"style="margin-left: 5%">
+            <ul><p>
+                       <input class="answer" type="radio" name="q4" value="a4">
+                        <label id="correctString1" style="margin-right: 130px;"><b>A . </b> In die neunte Klasse.</label>     
+                        <input class="answer" type="radio" name="q4" value="b4">
+                        <label style=" margin-right: 130px;"><b>B . </b>  In die dritte Klasse.</label>
+                        <input class="answer" type="radio" name="q4" value="c4">
+                        <label><b>C . </b> In die vierte Klasse.</label>  
+                     </p></ul>
+                 </div>
+
+            <div class="trennlinie"></div>
+            <div>
+            <h6 class="question"style="margin-left: 5%">5 . Wie kommt die Frau in den 2. Stock?</h6>
+            <img src="{%static 'polls/Images/q5.jpg'%}"style="margin-left: 5%">
+            <ul><p>
+                       <input class="answer" type="radio" name="q5" value="a5">
+                        <label id="correctString1" style="margin-right: 130px;"><b>A . </b> Mit dem Aufzug.</label>     
+                        <input class="answer" type="radio" name="q5" value="b5">
+                        <label style=" margin-right: 130px;"><b>B . </b>  Auf der Treppe um die Ecke.</label>
+                        <input class="answer" type="radio" name="q5" value="c5">
+                        <label><b>C . </b> Mit der Rolltreppe.</label>  
+                     </p></ul>
+                 </div>          
+            <div class="trennlinie"></div>
+
+            <div >
+            <h6 class="question"style="margin-left: 5%">6 . Wohin fährt Herr Albers?</h6>
+            <img src="{%static 'polls/Images/TEIL1.jpg'%}"style="margin-left: 5%">
+            <ul><p>
+                       <input class="answer" type="radio" name="q6" value="a6">
+                        <label id="correctString1" style="margin-right: 130px;"><b>A . </b> In Urlaub ans Meer.</label>     
+                        <input class="answer" type="radio" name="q6" value="b6">
+                        <label style=" margin-right: 130px;"><b>B . </b>  Zur Arbeit.</label>
+                        <input class="answer" type="radio" name="q6" value="c6">
+                        <label><b>C . </b> Zur Familie.</label>  
+                     </p>
+                 </div></ul>
+
+       </section>
+        <section class="page-section" id="services2"style="padding-top: 50px;">
+             <h2 style="padding-left: 40px;"></br><u> Teil 2 :</u></h2>
+            <h4 style="padding-left: 80px">Kreuzen Sie an: Richtig oder Falsch. </br> Sie hören jeden Text einmal. </br> </h4>
+            <h2 style="padding-left: 40px;"></br><u> Beispiel :</u></h2>
+            <img src="{%static 'polls/Images/beispiel2.jpg'%}"style="margin-left: 5%; margin-bottom: 20px;"></br>
+            <div>
+            <h6 class="question" style="margin-left:20px;margin-right: 10px;margin-bottom: 20px;"><b>7 . Die Kunden sollen die Weihnachtsfeier besuchen.</b>
+            <input class="answer" type="radio" name="q7" value="richtig1" style="margin-left: 20px;">
+            <label id="correctString1">Richtig</label>
+            <input class="answer" type="radio" name="q7" value="falsh1" style="margin-left: 20px;">
+            <label>Falsch</label>
+            </h6>
+            </div>
+              <div>
+            <h6 class="question" style="margin-left:20px;margin-right: 10px;margin-bottom: 20px;"><b>8 . Die Fahrgäste sollen sich im Restaurant treffen.</b>
+            <input class="answer" type="radio" name="q8" value="richtig8" style="margin-left: 20px;">
+            <label id="correctString1">Richtig</label>
+            <input class="answer" type="radio" name="q8" value="falsh8" style="margin-left: 20px;">
+            <label>Falsch</label>
+            </h6>
+            </div>
+              <div>
+            <h6 class="question" style="margin-left:20px;margin-right: 10px;margin-bottom: 20px;"><b>9 . Die Fahrgäste sollen im Zug bleiben.</b>
+            <input class="answer" type="radio" name="q9" value="richtig9" style="margin-left: 20px;">
+            <label id="correctString1">Richtig</label>
+            <input class="answer" type="radio" name="q9" value="falsh9" style="margin-left: 20px;">
+            <label>Falsch</label>
+            </h6>
+            </div>
+              <div>
+            <h6 class="question" style="margin-left:20px;margin-right: 10px;margin-bottom: 50px;"><b>10 . Der Herr soll sofort zum Schalter kommen.</b>
+            <input class="answer" type="radio" name="q10" value="richtig10" style="margin-left: 20px;">
+            <label id="correctString1">Richtig</label>
+            <input class="answer" type="radio" name="q10" value="falsh10" style="margin-left: 20px;">
+            <label>Falsch</label>
+            </h6>
+            </div>
+
+       </section>
+       <section class="page-section" id="services3"style="padding-top: 50px;">
+             <h2 style="padding-left: 40px;"></br><u> Teil 3 :</u></h2>
+            <h4 style="padding-left: 80px">Was ist richtig? </br> Kreuzen Sie an:A , B oder C.  </br> Sie hören jeden Text zweimal.</h4>
+
+            <div style="margin-top: 40px;">
+                     <h6 class="question" style="margin-left: 50px;">11 .  Die Nummer ist:</h6>
+ 
+                     <ul style="margin-left: 50px;">
+                       <input class="answer" type="radio" name="q11" value="a11">
+                        <label id="correctString1"><b>A . </b> 11833.</label>
+                        <br>
+                        <input class="answer" type="radio" name="q11" value="b11">
+                        <label><b>B . </b>  11883.  </label>
+                        <br>
+                        <input class="answer" type="radio" name="q11" value="c11">
+                        <label><b>C . </b>  12833. </label>  
+                     </ul>
+            </div>
+            <div style="margin-top: 40px;">
+                     <h6 class="question" style="margin-left: 50px;">12 . Wo genau treffen sich die Männer?  </h6>
+ 
+                     <ul style="margin-left: 50px;">
+                       <input class="answer" type="radio" name="q12" value="a12">
+                        <label id="correctString1"><b>A . </b>Am Zug. </label>
+                        <br>
+                        <input class="answer" type="radio" name="q12" value="b12">
+                        <label><b>B . </b> Am Bahnhof.   </label>
+                        <br>
+                        <input class="answer" type="radio" name="q12" value="c12">
+                        <label><b>C . </b> An der Information.   </label>  
+                     </ul>
+            </div>
+            <div style="margin-top: 40px;">
+                     <h6 class="question" style="margin-left: 50px;"> 13. Wie lange will der Mann noch warten? </h6>
+ 
+                     <ul style="margin-left: 50px;">
+                       <input class="answer" type="radio" name="q13" value="a13">
+                        <label id="correctString1"><b>A . </b> 20 Minuten. </label>
+                        <br>
+                        <input class="answer" type="radio" name="q13" value="b13">
+                        <label><b>B . </b>  2 Minuten.  </label>
+                        <br>
+                        <input class="answer" type="radio" name="q13" value="c13">
+                        <label><b>C . </b>  10 Minuten. </label>  
+                     </ul>
+            </div>
+            <div style="margin-top: 40px;">
+                     <h6 class="question" style="margin-left: 50px;">14 . An welchem Tag will die Frau kommen?  </h6>
+ 
+                     <ul style="margin-left: 50px;">
+                       <input class="answer" type="radio" name="q14" value="a14">
+                        <label id="correctString1"><b>A . </b> Am Montag. </label>
+                        <br>
+                        <input class="answer" type="radio" name="q14" value="b14">
+                        <label><b>B . </b>  Am Sonntag. </label>
+                        <br>
+                        <input class="answer" type="radio" name="q14" value="c14">
+                        <label><b>C . </b>  Am Samstag. </label>  
+                     </ul>
+            </div>
+            <div style="margin-top: 40px;">
+                     <h6 class="question" style="margin-left: 50px;">15 . Was ist kaputt? </h6>
+ 
+                     <ul style="margin-left: 50px;">
+                       <input class="answer" type="radio" name="q15" value="a15">
+                        <label id="correctString1"><b>A . </b> Der Fernseher. </label>
+                        <br>
+                        <input class="answer" type="radio" name="q15" value="b15">
+                        <label><b>B . </b>  Der Computer.  </label>
+                        <br>
+                        <input class="answer" type="radio" name="q15" value="c15">
+                        <label><b>C . </b> Das Handy.   </label>  
+                     </ul>
+            </div>
+
+        </section>
+
+
+       </div>
+         <input type="button" onclick="and()" value="beenden!" id=ayn />
+     <br></br>
+     <br></br>
+      <div id="results"> </div>
+     <br></br>
+     <br></br>
+
+
+
+</body>
+</form>
+    <script> 
+function and(){
+	
+   
+	var c=0;
+	var q1=document.Quiz.q1.value;
+	var q2=document.Quiz.q2.value;
+	var q3=document.Quiz.q3.value;
+	var q4=document.Quiz.q4.value;
+	var q5=document.Quiz.q5.value;
+	var q6=document.Quiz.q6.value;
+	var q7=document.Quiz.q7.value;
+	var q8=document.Quiz.q8.value;
+	var q9=document.Quiz.q9.value;
+	var q10=document.Quiz.q10.value;
+	var q11=document.Quiz.q11.value;
+	var q12=document.Quiz.q12.value;
+	var q13=document.Quiz.q13.value;
+	var q14=document.Quiz.q14.value;
+	var q15=document.Quiz.q15.value;
+
+	if(q1=="a1"){c++}
+	if(q2=="b2"){c++}
+	if(q3=="c3"){c++}
+	if(q4=="a4"){c++}
+	if(q5=="b5"){c++}
+	if(q6=="c6"){c++}
+	if(q7=="richtig7"){c++}
+	if(q8=="falsh8"){c++}
+	if(q9=="richtig9"){c++}
+	if(q10=="falsh10"){c++}
+	if(q11=="a11"){c++}
+	if(q12=="b12"){c++}
+	if(q13=="c13"){c++}
+	if(q14=="a14"){c++}
+	if(q15=="b15"){c++}
+
+
+	  if(0<c<=7){
+		  document.getElementById("results").innerHTML = "your score is " +c+"  "+"nicht bestand"+" "+"try again";
+		    
+		  var img = document.createElement('img');
+
+	document.getElementById('results');
+	  }
+	   if(7<c){ document.getElementById("results").innerHTML = "your score is " +c+"  "+"bestand"+":)";
+
+
+	document.getElementById('results');
+	   
+	   }
+	
+} </script>
+
+
+</html>        

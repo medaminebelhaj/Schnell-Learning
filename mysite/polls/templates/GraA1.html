@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+     <title>Grammtik</title>
+
+           {% load static %}
+    <link href="{%static 'polls\css\GraA1.css'%}" rel="stylesheet" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="st.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+     
+
+<div cass="wrapper">
+    <div class="logo">
+        <img src="{%static 'polls/Images/LOGO.png'%}" alt="">
+        <h4> /A1 <style> font-family:Blippo,fantasy;font-size:60px;text-align: center;color: black ;</style></h4>
+       </div>
+       <ul>
+        <li><a class="active" href="http://localhost:8000/polls/acceuil">Home</a></li>
+        <li><a href="http://localhost:8000/polls/schreibenA2">Redemittel Schreiben</a></li>
+        <li><a href="http://localhost:8000/polls/acceuil#contact">Contact</a></li>
+       </ul>
+    </div>
+</div>
+</nav>
+    <br>
+    <br>
+    <br>
+
+
+<div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="{%static 'polls/Images/alphb.jpeg'%}" alt="" >
+          <div class="card-content">
+
+            <button class="card-btn" onclick="window.location.href='http://localhost:8000/polls/alphabetA1'">Phonétique<span>&rarr;</span> </button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="{%static 'polls/Images/nummer.jpg'%}"   alt="">
+          <div class="card-content">
+            
+            <button class="card-btn" onclick="window.location.href='http://localhost:8000/polls/nummerA1'">Nombre <span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="{%static 'polls/Images/articles.jpeg'%}" alt="" >
+          <div class="card-content">
+           
+            <button class="card-btn" onclick="window.location.href='http://localhost:8000/polls/pronomA1'">Articles<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

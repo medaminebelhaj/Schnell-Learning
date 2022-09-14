@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+     <title>Grammatik</title>
+        {% load static %}
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="{%static 'polls\css\GraB2.css'%}">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+     
+
+<div class="wrapper">
+    <div class="logo">
+        <img src="{%static 'polls/Images/LOGO.png'%}" alt="">
+       </div>
+
+    <ul>
+        
+        <li><a class="active" href="#">Grammatik</a></li>
+        <li><a href="http://localhost:8000/polls/schreibenB2">Redemittel Schreiben</a></li>
+        <li><a href="http://localhost:8000/polls/acceuil#contact">Contact</a></li>
+        
+    </ul>
+
+
+     
+</div>
+</nav>
+  <div class="content">
+
+
+
+<div class="grid">
+      <div class="grid-item">
+        <div class="card"  onclick="window.location.href='http://localhost:8000/polls/subB2'">
+          <img class="card-img" src="{%static 'polls/Images/Substantiv.jpg'%}" alt="" >
+          <div class="card-content">
+            
+            <button class="card-btn"> Substantiv<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="card"  onclick="window.location.href='http://localhost:8000/polls/verbA2'">
+          <img class="card-img" src="{%static 'polls/Images/Aktiv.jpg'%}"  alt="">
+          <div class="card-content">
+            
+            <button class="card-btn">Passiv und Aktiv<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="card"  onclick="window.location.href='http://localhost:8000/polls/verneinungB2'">
+          <img class="card-img" src="{%static 'polls/Images/Vernei.png'%}" alt="" >
+          <div class="card-content">
+           
+            <button class="card-btn">Die Verneinung&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+     <title>Acceuil</title>
+     {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{%static 'polls\css\coursPageA1.css'%}" rel="stylesheet" >
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+     
+
+<div cass="wrapper">
+    <div class="logo">
+        <img src="{%static 'polls/Images/LOGO.png'%}" alt="">
+<h4> /B1 <style> font-family:Blippo,fantasy;font-size:60px;text-align: center;color: black ;</style></h4>
+       </div>
+       <ul>
+         <li><a class="active" href="http://localhost:8000/polls/acceuil">Home</a></li>
+        <li><a href="http://localhost:8000/polls/schreibenB1">Redemittel Schreiben</a></li>
+        <li><a href="http://localhost:8000/polls/acceuil#contact">Contact</a></li>
+       </ul>
+    </div>
+</div>
+    </nav>
+
+
+    <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Schnell Learning!</h1>
+       <p class="lead">Besucht Ihr Kind eine lokale oder internationale Schule im Ausland? <br/>
+        Sichern Sie mit unseren Deutschkursen den Anschluss im Fach Deutsch!<br/>
+      Wählen Sie die passende Lösung für Ihr Kind: </p>
+      
+    </div>
+  </div>
+
+      <div class="container" >
+         <div class="row"> 
+            <div class="card">
+                <img src="{%static 'polls/Images/Grammatik.jpg'%}" alt="">
+
+                   <h4 style="color:brown"> Grammatik</h4>
+  <p> >> Hier findest du die wichtigsten Grammatikregeln der deutschen Sprache. Mach dir die Grammatik zum Freund! Mit den richtigen Lernangeboten sind dir die Regeln bald klar.<br/>
+              Lerne Deutsch Schritt für Schritt!<br/>
+                  Mit Schnell Learning kannst du Deutsch in Lektionen lernen, die aufeinander abgestimmt sind.</p>
+                  <a href="http://localhost:8000/polls/grammatikB1" class="btn" > Finde mehr heraus</a>
+              </div>
+
+
+              <div class="card">
+                <img src="{%static 'polls/Images/Schreiben.jpg'%}" alt="">
+
+                   <h4 style="color:red"> Redemittel Schreiben </h4>
+                  <p> >>Gut schreiben können ist eine nicht zu unterschätzende Kompetenz, und guter Stil ist keinesfalls angeboren. Der kann erlernt werden! Deshalb haben wir Lerninhalte gesammelt, mit denen du deine Schreibfähigkeit gezielt verbessern kannst.. </p>
+             <a href="http://localhost:8000/polls/schreibenB1" class="btn" > Finde mehr heraus</a>
+                  
+              </div>
+          </div>
+      </div>
+
+
+              
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+

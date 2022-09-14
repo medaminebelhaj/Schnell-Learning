@@ -1,0 +1,25 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+from polls.models import user
+
+def index(request):
+    return HttpResponse("Hello, world. You're at the polls index. im amine")
+def afficher(request):
+    return HttpResponse("im methode afficher amine")
+
+def Home(request):
+    return render(request, 'home.html')
+def Acceuil(request):
+    return render(request, 'home1.html')
+def Choice(request):
+    return render(request,'choices.html')
+def Signup(request):
+    return render(request,'signup.html') 
+def Login(request):
+    return render(request,'login.html')  
+
+def SaveUser(request):
+    
+    user1 = inscription(username="fattah amine",password="1111",email="abassi@gkjk.com")
+    user1.save()
+    return HttpResponse("L'insertion a eté effectuée")     

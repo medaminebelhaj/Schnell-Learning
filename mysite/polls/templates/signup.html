@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <title> Schnell-Learning / Sign Up </title>
+    <link rel="stylesheet" href="{%static 'polls\css\signstyl1.css'%}">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Schnell Learning-SignUp</h1>
+      <h4>It's free and only takes a minute</h4>
+      <form action="saveuser" method="post">
+        {% csrf_token %}
+        <label>First Name</label>
+        <input type="text" name="firstname" placeholder="" />
+        <label>Last Name</label>
+        <input type="text" name="lastname" placeholder="" />
+        <label>Email</label>
+        <input type="email" name="email" placeholder="" />
+        <label>Username</label>
+        <input type="text" name="username" placeholder="" />
+        <label>Password</label>
+        <input type="password" name="password" placeholder="" />
+        <label>Confirm Password</label>
+        <input type="password"  placeholder="" />
+        <input type="submit" value="SIGNUP">
+
+      </form>
+      
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+  </body>
+</html>
+
